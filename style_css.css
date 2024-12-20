@@ -83,3 +83,39 @@ body {
 .footer p {
     margin: 0;
 }
+.skills-chart {
+    margin-top: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.skill span {
+    width: 100px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.bar {
+    flex: 1;
+    height: 20px;
+    background: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 1rem;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background: #0047AB;
+    width: 0;
+    transition: width 1s ease;
+    border-radius: 10px 0 0 10px;
+}
