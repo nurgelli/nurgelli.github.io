@@ -7,3 +7,11 @@ navLinks.forEach(link => {
         });
     });
 });
+document.addEventListener("DOMContentLoaded", () => {
+    const progressBars = document.querySelectorAll(".progress");
+
+    progressBars.forEach(bar => {
+        const skillLevel = bar.dataset.skill;
+        bar.style.width = skillLevel + "%";
+    });
+});
