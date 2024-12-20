@@ -1,1 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
 
+.hero {
+    background-color: #0047AB;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #002E5D;
+    color: #fff;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.section {
+    padding: 2rem 1rem;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #0047AB;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
