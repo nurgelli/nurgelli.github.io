@@ -121,6 +121,32 @@ body {
     border-radius: 10px 0 0 10px;
 }
 
+
+.hero {
+    background-color: #0047AB;
+    color: #fff;
+}
+
+#about {
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+#skills {
+    background-color: #e6f7ff; 
+    color: #333;
+}
+
+#portfolio {
+    background-color: #d9f2ff;
+    color: #333;
+}
+
+.footer {
+    background-color: #0047AB;
+    color: #fff;
+}
+
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2rem;
